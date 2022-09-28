@@ -1,6 +1,6 @@
 # calcul_scientifique_projetM1
 
-Projet de Calcul scientifique guidé en M1S1.
+Projet de Calcul scientifique guidé en M1S1, effectué en Rust.
 
 Sujets de TP proposés par Philippe Helluy (voir "sujets_TP/")
 

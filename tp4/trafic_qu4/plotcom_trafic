@@ -1,0 +1,11 @@
+set title "Résolution de l'équation du trafic automobile (N=400, t en minutes ici)"
+plot 'resu_rusanov_trafic_t0.dat' using 1:2 w l dashtype 2 title 't=0',\
+'resu_rusanov_trafic_t025.dat' using 1:2 w l title 't=0.25',\
+'resu_rusanov_trafic_t050.dat' using 1:2 w l title 't=0.50',\
+'resu_rusanov_trafic_t075.dat' using 1:2 w l title 't=0.75',\
+'resu_rusanov_trafic_t1.dat' using 1:2 w l title 't=1',\
+'resu_rusanov_trafic_t125.dat' using 1:2 w l title 't=1.25',\
+'resu_rusanov_trafic_t150.dat' using 1:2 w l title 't=1.50',\
+'resu_rusanov_trafic_t175.dat' using 1:2 w l title 't=1.75',\
+'resu_rusanov_trafic_t2.dat' using 1:2 w l title 't=2'
+pause -1

@@ -1,0 +1,19 @@
+set title "Solution approchée par développement en série (N=50)"
+set key autotitle columnheader
+plot for [i=2:9] 'resu_serie_N50.dat' using 1:i w l
+pause -1
+
+set title "Solution approchée par développement en série (N=100)"
+set key autotitle columnheader
+plot for [i=2:9] 'resu_serie_N100.dat' using 1:i w l
+pause -1
+
+set title "Solution approchée par développement en série (N=500)"
+set key autotitle columnheader
+plot for [i=2:9] 'resu_serie_N500.dat' using 1:i w l
+pause -1
+
+set title "Solution approchée par développement en série (N=1000)"
+set key autotitle columnheader
+plot for [i=2:9] 'resu_serie_N1000.dat' using 1:i w l
+pause -1

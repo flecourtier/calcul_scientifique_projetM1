@@ -1,0 +1,4 @@
+set title "Erreur en norme infini"
+set xlabel("N")
+plot 'lax_Linf.dat' using 1:2 w l title 'norme Linf'
+pause -1
